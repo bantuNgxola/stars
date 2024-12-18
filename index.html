@@ -1,15 +1,6 @@
-<form action="http://www.example.com/profile.php">
-<p>Do you play any of the following instruments?
- (You can select more than one option by holding
- down control on a PC or command key on a Mac
- while selecting different options.)</p>
-<select name="instruments" size="3"
- multiple="multiple">
- <option value="guitar" selected="selected">
- Guitar</option>
- <option value="drums">Drums</option>
- <option value="keyboard"
- selected="selected">Keyboard</option>
- <option value="bass">Bass</option>
-</select>
+<form action="http://www.example.com/upload.php"
+method="post">
+<p>Upload your song in MP3 format:</p>
+<input type="file" name="user-song" /><br />
+<input type="submit" value="Upload" />
 </form>
